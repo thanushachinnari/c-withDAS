@@ -1,7 +1,7 @@
 #include<iostream>
-using namespace std;
 #include <vector>
-void zeroatend(vector<int>& arr){
+using namespace std;
+void  ZeroatEnd(vector<int>& arr){
   // int result ;
   int n = arr.size();
   int j =0;
@@ -14,9 +14,9 @@ void zeroatend(vector<int>& arr){
 
 }
 int main() {
-    vector<int> arr = {1, 0, 4, 0, 56, 9};
+    vector<int> arr = {1, 0, 4, 0, 56, 9,90,78,0,56,89};
 
-    zeroatend(arr);
+    ZeroatEnd(arr);
 
 
     for(int num : arr) {
