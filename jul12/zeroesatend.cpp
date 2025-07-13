@@ -1,7 +1,7 @@
 #include<iostream>
 #include <vector>
 using namespace std;
-void  ZeroatEnd(vector<int>& arr){
+void ZeroatEnd(vector<int>& arr){
   // int result ;
   int n = arr.size();
   int j =0;
