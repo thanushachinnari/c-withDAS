@@ -17,7 +17,7 @@ int Linearsearch(vector<int> arr,int target){
 
 int main(){
   vector<int> arr={2, 3, 4, 5, 3};
-  int target = 9;
+  int target = 3;
 
   cout<< Linearsearch(arr,target);
 
